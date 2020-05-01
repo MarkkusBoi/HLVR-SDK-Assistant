@@ -11,8 +11,4 @@
     <None Remove="paths.config" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Content Include="paths.config" />
-  </ItemGroup>
-
 </Project>

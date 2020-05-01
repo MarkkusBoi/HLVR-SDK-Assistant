@@ -33,6 +33,7 @@ namespace HLVR_SDK_Assistant
             InitializeComponent();
             toolStripStatusMapSelectLabel.Text = "No Maps Selected";
             toolStripStatusMapsLoadedLabel.Text = "No Maps Found";
+            /*
             if ()
             {
 
@@ -41,6 +42,7 @@ namespace HLVR_SDK_Assistant
             {
 
             }
+            */
 
         }
 
