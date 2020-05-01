@@ -124,10 +124,11 @@ namespace HLVR_SDK_Assistant
 
         private void updateSelection(object sender, ItemCheckEventArgs e)
         {
+            mapNames.Clear();
+
             // updateSelection runs before the handler updates the CheckedItems collection.
             // Therefore, we must handle the update after the event is over.
             // https://stackoverflow.com/a/32291665
-            mapNames.Clear();
             this.BeginInvoke(new Action(() =>
             {
                 Console.WriteLine(mapListBox.CheckedItems.Count);
@@ -235,6 +236,7 @@ namespace HLVR_SDK_Assistant
             num = 0;
             string filepath = sdkMapPath;
             mapListBox.Items.Clear();
+            toolStripStatusMapSelectLabel.Text = "No Maps Selected";
 
             try
             {
