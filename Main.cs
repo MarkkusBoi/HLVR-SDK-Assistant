@@ -79,18 +79,26 @@ namespace HLVR_SDK_Assistant
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            try
+            if (gameMapPathText.Text == "")
             {
-                foreach (string map in mapNames)
+                MessageBox.Show("Please select an output destination!", "Error");
+            }
+            else
+            {
+                try
                 {
-                    File.Copy(Path.Combine(sdkMapPath, map), Path.Combine(gameMapPath, map), true);
+                    foreach (string map in mapNames)
+                    {
+                        File.Copy(Path.Combine(sdkMapPath, map), Path.Combine(gameMapPath, map), true);
+                    }
+                    MessageBox.Show("The selected maps were copied!", "Info");
                 }
-                MessageBox.Show("The selected maps were copied!", "Info");
+                catch (Exception a)
+                {
+                    MessageBox.Show("An error occured while copying maps: " + a.Message, "Error");
+                }
             }
-            catch (Exception a)
-            {
-                MessageBox.Show("An error occured while copying maps: " + a.Message, "Error");
-            }
+            
         }
 
         private void sdkMapPathMapCheck(object sender, EventArgs e)
