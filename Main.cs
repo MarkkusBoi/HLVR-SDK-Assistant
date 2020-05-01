@@ -236,6 +236,7 @@ namespace HLVR_SDK_Assistant
             num = 0;
             string filepath = sdkMapPath;
             mapListBox.Items.Clear();
+            mapCopyButton.Enabled = false;
             toolStripStatusMapSelectLabel.Text = "No Maps Selected";
 
             try
