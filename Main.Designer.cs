@@ -440,6 +440,7 @@
             // refreshMapButton
             // 
             this.refreshMapButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.refreshMapButton.Enabled = false;
             this.refreshMapButton.Location = new System.Drawing.Point(169, 3);
             this.refreshMapButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.refreshMapButton.Name = "refreshMapButton";

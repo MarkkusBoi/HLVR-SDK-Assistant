@@ -97,16 +97,16 @@ namespace HLVR_SDK_Assistant
                 {
                     MessageBox.Show("An error occured while copying maps: " + a.Message, "Error");
                 }
-            }
-            
+            } 
         }
 
         private void sdkMapPathMapCheck(object sender, EventArgs e)
         {
+            num = 0;
 
             mapNames.Clear();
             mapListBox.Items.Clear();
-            num = 0;
+            refreshMapButton.Enabled = true;
 
             string filepath = sdkMapPath;
             DirectoryInfo d = new DirectoryInfo(filepath);
