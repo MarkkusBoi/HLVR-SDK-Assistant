@@ -34,6 +34,9 @@ namespace HLVR_SDK_Assistant
             toolStripStatusMapSelectLabel.Text = "No Maps Selected";
             toolStripStatusMapsLoadedLabel.Text = "No Maps Found";
             /*
+             *  I am going to add saving the paths to the registry so the user doesn't need
+             *  set them every time the program launches.
+             * 
             if ()
             {
 
