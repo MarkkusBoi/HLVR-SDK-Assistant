@@ -85,6 +85,7 @@ namespace HLVR_SDK_Assistant
                 {
                     File.Copy(Path.Combine(sdkMapPath, map), Path.Combine(gameMapPath, map), true);
                 }
+                MessageBox.Show("The selected maps were copied!", "Info");
             }
             catch (Exception a)
             {
