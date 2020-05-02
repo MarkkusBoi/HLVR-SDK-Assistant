@@ -176,7 +176,8 @@
             // 
             // sdkMapBrowseButton
             // 
-            this.sdkMapBrowseButton.Location = new System.Drawing.Point(591, 3);
+            this.sdkMapBrowseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.sdkMapBrowseButton.Location = new System.Drawing.Point(591, 5);
             this.sdkMapBrowseButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.sdkMapBrowseButton.Name = "sdkMapBrowseButton";
             this.sdkMapBrowseButton.Size = new System.Drawing.Size(80, 25);
@@ -208,7 +209,8 @@
             // 
             // gameMapBrowseButton
             // 
-            this.gameMapBrowseButton.Location = new System.Drawing.Point(591, 38);
+            this.gameMapBrowseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.gameMapBrowseButton.Location = new System.Drawing.Point(591, 40);
             this.gameMapBrowseButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.gameMapBrowseButton.Name = "gameMapBrowseButton";
             this.gameMapBrowseButton.Size = new System.Drawing.Size(80, 25);
@@ -240,7 +242,8 @@
             // 
             // sdkScriptBrowseButton
             // 
-            this.sdkScriptBrowseButton.Location = new System.Drawing.Point(591, 73);
+            this.sdkScriptBrowseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.sdkScriptBrowseButton.Location = new System.Drawing.Point(591, 75);
             this.sdkScriptBrowseButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.sdkScriptBrowseButton.Name = "sdkScriptBrowseButton";
             this.sdkScriptBrowseButton.Size = new System.Drawing.Size(80, 25);
@@ -262,10 +265,9 @@
             // 
             // gameScriptText
             // 
-            this.gameScriptText.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gameScriptText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.gameScriptText.Enabled = false;
-            this.gameScriptText.Location = new System.Drawing.Point(138, 108);
+            this.gameScriptText.Location = new System.Drawing.Point(138, 111);
             this.gameScriptText.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.gameScriptText.Name = "gameScriptText";
             this.gameScriptText.Size = new System.Drawing.Size(445, 23);
@@ -273,7 +275,8 @@
             // 
             // gameScriptBrowseButton
             // 
-            this.gameScriptBrowseButton.Location = new System.Drawing.Point(591, 108);
+            this.gameScriptBrowseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.gameScriptBrowseButton.Location = new System.Drawing.Point(591, 109);
             this.gameScriptBrowseButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.gameScriptBrowseButton.Name = "gameScriptBrowseButton";
             this.gameScriptBrowseButton.Size = new System.Drawing.Size(80, 27);
@@ -284,7 +287,8 @@
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 134F));
@@ -305,12 +309,13 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(4, 3);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 4;
+            this.tableLayoutPanel1.RowCount = 5;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(675, 138);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(675, 390);
             this.tableLayoutPanel1.TabIndex = 14;
             // 
             // tableLayoutPanel2
@@ -321,10 +326,10 @@
             this.tableLayoutPanel2.ColumnCount = 2;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 66.9221F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.0779F));
-            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel5, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel4, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel1, 0, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(14, 31);
             this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
