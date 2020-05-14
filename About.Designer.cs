@@ -32,8 +32,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -49,7 +47,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(279, 164);
+            this.button1.Location = new System.Drawing.Point(279, 87);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(88, 27);
@@ -68,34 +66,11 @@
             this.label2.Text = "Developed by Markkus Taylor (MarkkusBoi) as a tool to assist in the creation of H" +
     "alf-Life: Alyx maps.";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(12, 85);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 28);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Disclaimer";
-            // 
-            // label5
-            // 
-            this.label5.Location = new System.Drawing.Point(14, 123);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(346, 38);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "This is my first program and likely has errors of some kind. Please make backups " +
-    "of your maps before attempting copying for the first time.";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
-            // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(380, 203);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label3);
+            this.ClientSize = new System.Drawing.Size(380, 126);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
@@ -118,7 +93,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label5;
     }
 }
